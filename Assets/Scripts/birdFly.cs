@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class birdFly : MonoBehaviour
 {
     public bool isDead;
-    public float velocity = 1f;
+    public float velocity = 6f;
     public Rigidbody2D rb2D;
 
     public gameManager managerGame;
@@ -15,7 +15,7 @@ public class birdFly : MonoBehaviour
 
     private void Start()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 1f;
     }
 
     void Update()

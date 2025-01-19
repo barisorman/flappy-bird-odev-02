@@ -31,12 +31,12 @@ public class ScoreUIManager : MonoBehaviour
         if (isGameOver)
         {
             // Ölüm ekranýnda farklý bir pozisyonda göster
-            scoreTextRectTransform.anchoredPosition = new Vector2(0, -1127);  // Yeni pozisyon (x, y)
+            scoreTextRectTransform.anchoredPosition = new Vector2(0, -1127);
         }
         else
         {
             // Oyun sýrasýnda farklý bir pozisyonda göster
-            scoreTextRectTransform.anchoredPosition = new Vector2(0, -290);  // Yeni pozisyon (x, y)
+            scoreTextRectTransform.anchoredPosition = new Vector2(0, -290);
         }
     }
 }

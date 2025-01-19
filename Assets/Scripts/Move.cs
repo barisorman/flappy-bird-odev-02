@@ -10,12 +10,12 @@ public class Move : MonoBehaviour
 
     private void Start()
     {
-        Destroy(gameObject, 6.5f);
+        Destroy(gameObject, 4f);
     }
 
 
     void FixedUpdate()
     {
-        transform.position += Vector3.left * speed * Time.deltaTime;
+        transform.position += Vector3.left * 1.5f * speed * Time.deltaTime;
     }
 }
